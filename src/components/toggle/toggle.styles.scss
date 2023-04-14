@@ -1,0 +1,11 @@
+.toggle-wrapper div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    span {
+        margin-right: 0.8em;
+        font-weight: bold;
+        letter-spacing: 2.5px;
+    }
+}

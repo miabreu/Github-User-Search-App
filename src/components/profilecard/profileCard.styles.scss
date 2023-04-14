@@ -1,0 +1,198 @@
+.profile-card {
+    border-radius: 15px;
+    padding: 2em 1.5em;
+    position: relative;
+
+    // Header
+    .header {
+        display: flex;
+        align-items: center;
+        margin-left: 4.5em;
+    }
+
+    .details {
+        margin-left: 1.5em;
+    }
+
+    .details a {
+        color: rgb(0, 121, 255);
+        display: inline-block;
+        margin-bottom: 0.6em;
+    }
+
+    // Bio Section
+    .bio {
+        margin: 2em 0 1.7em 0;
+    }
+
+    .highlights {
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+        padding: 1.2em 1em;
+        margin-bottom: 1.9em;
+    }
+
+    .highlight {
+        text-align: center;
+
+        p {
+            font-size: 0.688rem;
+            margin-bottom: 0.5em
+        }
+
+        span {
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    }
+
+    .content {
+        width: 100%;
+    }
+}
+
+.location-social-info {
+    div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.75em;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    div:last-child {
+        margin-bottom: 1em;
+    }
+
+    img {
+        margin-right: 1.1em;
+        filter: brightness(0) invert(1);
+    }
+
+    .location > img {
+        margin-right: 23px;
+    }
+
+    a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+}
+
+.avatar-wrapper {
+    position: absolute;
+
+    .profile-image {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%; 
+    }
+}
+
+// Media Queries
+@media screen and (min-width: 600px) {
+    .location-social-info {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0 40px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover, 
+    a:focus {
+        text-decoration: underline;
+    }
+
+    .profile-link {
+        order: 2;
+    }
+
+    .twitter-social {
+        order: 1;
+    }
+
+    .company {
+        order: 3
+    }
+
+    .avatar-wrapper .profile-image {
+        width: 117px;
+        height: 117px;
+        border-radius: 50%;
+    }
+
+    .profile-card {
+        .header {
+            display: flex;
+            align-items: center;
+            margin-left: 8.5em;
+            margin-top: 1em;
+        }
+
+        .bio {
+            margin: 3em 0 1.7em 0;
+        }
+
+        .highlights {
+            padding: 1.2em 2em;
+        }
+
+        .highlight {    
+            p {
+                font-size: 0.9rem;
+                margin-bottom: 0.5em
+            }
+        }
+    }
+
+    .details {
+        a {
+            margin-top: 0.3em;
+        }
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    .profile-card {
+     //   background: rgb(30, 42, 71);
+        border-radius: 15px;
+        padding: 2.5em 3em 2em 3em;
+        display: flex;
+
+        .header {
+            margin-left: unset;
+            margin-top: unset;
+        }
+
+        .bio {
+            margin: 1.2em 0 1.7em 0;
+        }
+
+        .details {
+            margin-left: unset;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: baseline;
+
+            a {
+                margin-top: 0.3em;
+            }
+        }
+
+        .avatar-wrapper {
+            margin-right: 2.5em;
+            position: unset;
+        }
+
+        .location-social-info > div {
+            font-size: 0.85rem;
+        }
+    }
+}
