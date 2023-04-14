@@ -3,5 +3,6 @@
     "devfinder",
     "octocat",
     "profilecard"
-  ]
+  ],
+  "liveServer.settings.port": 5502
 }
