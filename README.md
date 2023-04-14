@@ -9,7 +9,7 @@ This is a web application built with **React.js**, **TypeScript**, and **Sass** 
 ## Installation
 To run the application locally, follow these steps:
 
-1. Clone the repository: `git clone `
+1. Clone the repository: `git clone https://github.com/miabreu/Github-User-Search-App.git`
 2. Navigate to the project directory: `cd github-user-search-app`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
