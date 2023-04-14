@@ -17,6 +17,12 @@ To run the application locally, follow these steps:
 
 # Screenshots
 
+<img width="1400" alt="Screen Shot 1 light" src="https://user-images.githubusercontent.com/42332056/232159450-93eb3571-1e7e-4656-b0eb-8f2493e20654.png">
+<img width="1400" alt="Screen Shot 2 light" src="https://user-images.githubusercontent.com/42332056/232159452-d2bc8f65-a99f-44c4-85a9-573e27cccf90.png">
+<img width="1400" alt="Screen Shot 1 dark" src="https://user-images.githubusercontent.com/42332056/232159456-08f0863b-19f0-4a93-8cbf-a07e6e8f18e7.png">
+<img width="1400" alt="Screen Shot 2 dark" src="https://user-images.githubusercontent.com/42332056/232159454-c7d2cdec-c3e8-48b8-97b8-db8bf929790e.png">
+
+
 # Takeaways
 
 ## Usage
@@ -27,5 +33,3 @@ To use the application, simply enter a Github username in the search bar and cli
 2. **TypeScript**
 3. **Sass** 
 4. **Github API**
-
-## Link
