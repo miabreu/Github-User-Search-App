@@ -23,8 +23,6 @@ To run the application locally, follow these steps:
 <img width="1400" alt="Screen Shot 2 dark" src="https://user-images.githubusercontent.com/42332056/232159454-c7d2cdec-c3e8-48b8-97b8-db8bf929790e.png">
 
 
-# Takeaways
-
 ## Usage
 To use the application, simply enter a Github username in the search bar and click the "Search" button. The app will fetch the user's profile data and display it on the screen.
 
